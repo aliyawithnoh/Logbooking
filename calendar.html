@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>BCHS Booked| Calendar</title>
+</head>
+<body>
+    <nav class="nav">
+        <h2>BCHS Booked</h2>
+        <figure id="profile">
+            <img src="https://cdn-icons-png.flaticon.com/512/12225/12225935.png" alt="profile picture" class="profile-pic">
+            <p>Profile</p>    
+        </figure>
+        <a href="index.html">
+            <i class="fa-solid fa-house active"></i>
+            <p class="active">Home</p>
+        </a>
+        <a href="Events.html">
+            <i class="fa-solid fa-clipboard"></i>
+            <p>Event</p>
+        </a>
+        <a href="history.html">
+            <i class="fa-solid fa-clock"></i>
+            <p>History</p>
+        </a>
+    </nav>
+    <aside class="prof-sidebar" id="prof-sidebar">
+        <img src="https://cdn-icons-png.flaticon.com/512/12225/12225935.png" alt="profile picture">
+        <p>Name</p>
+        <a href="#">Payments</a>
+        <a href="#">Notification</a>
+        <a href="#">Edit Profile</a>
+        <a href="landingpage.html" class="btn">Log Out</a>
+    </aside>
+
+    <main class="calendar-sect">
+        <div>
+            <p class="month"><i class="fa-solid fa-chevron-left"></i> March <i class="fa-solid fa-chevron-right"></i></p>
+            <p class="year"><i class="fa-solid fa-chevron-left"></i> 2025 <i class="fa-solid fa-chevron-right"></i></p>
+        </div>
+        <table class="calendar">
+            <tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thur</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+            <tr>
+                <td class="empty">23</td>
+                <td class="empty">24</td>
+                <td class="empty">25</td>
+                <td class="empty">26</td>
+                <td class="empty">27</td>
+                <td class="empty">28</td>
+                <td><a href="day.html">1</a></td>
+            </tr>
+            <tr>
+                <td><a href="day.html">2</a></td>
+                <td><a href="day.html">3</a></td>
+                <td><a href="day.html">4</a></td>
+                <td><a href="day.html">5</a></td>
+                <td><a href="day.html">6</a></td>
+                <td class="booked"><a href="day.html">7</a></td>
+                <td><a href="day.html">8</a></td>
+            </tr>
+            <tr>
+                <td><a href="day.html">9</a></td>
+                <td><a href="day.html">10</a></td>
+                <td><a href="day.html">11</a></td>
+                <td class="booked"><a href="day.html">12</a></td>
+                <td><a href="day.html">13</a></td>
+                <td><a href="day.html">14</a></td>
+                <td><a href="day.html">15</a></td>
+            </tr>
+            <tr>
+                <td><a href="day.html">16</a></td>
+                <td><a href="day.html">17</a></td>
+                <td class="booked"><a href="day.html">18</a></td>
+                <td><a href="day.html">19</a></td>
+                <td><a href="day.html">20</a></td>
+                <td><a href="day.html">21</a></td>
+                <td><a href="day.html">22</a></td>
+            </tr>
+            <tr>
+                <td><a href="day.html">23</a></td>
+                <td><a href="day.html">24</a></td>
+                <td><a href="day.html">25</a></td>
+                <td><a href="day.html">26</a></td>
+                <td><a href="day.html">27</a></td>
+                <td class="booked"><a href="day.html">28</a></td>
+                <td><a href="day.html">29</a></td>
+            </tr>
+            <tr>
+                <td><a href="day.html">30</a></td>
+                <td><a href="day.html">31</a></td>
+                <td class="empty">1</td>
+                <td class="empty">2</td>
+                <td class="empty">3</td>
+                <td class="empty">4</td>
+                <td class="empty">5</td>
+            </tr>
+        </table>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

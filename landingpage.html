@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCHS Booking</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            height: 100vh;
+            background: linear-gradient(#000a, #000a), url(School.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+<body class="static">
+    <header class="p-5 flex items-center bg-white ">
+        <img class="h-25 w-auto" src="Baguio_City_National_High_School_logo.png" alt="BCHS logo"> 
+        <div class="title p-5">
+            <h1 class=" text-4xl"> Baguio City High School</h1>
+            <h3> A Faster Reservation!</h3>
+        </div>
+        
+    </header>
+    <main class="flex flex-col items-end absolute bottom-10 right-1">
+        <form action="#" class=" text-white p-4 mr-40 bg-red-900 h-110 w-90 rounded-3xl flex flex-col ">
+            <h2 class=" text-3xl pb-5 self-center">Log In</h2>
+            <label class="" for="Email">Email:</label>
+            <input class="bg-white text-black p-1 rounded-full mb-10" type="email" >
+            <label for="password">Password:</label>
+            <input class="bg-white text-black p-1 rounded-full mb-10" type="password" >
+            <a href="index.html" class="mb-10 text-black bg-yellow-400 rounded-full p-1 flex justify-center"><button class=""> Log In</button></a>
+            <a class="mb-5" href="#">sign in with google</a>
+            <a href="#">forgot password?</a>
+        </form>
+    </main>
+</body>
+</html>
